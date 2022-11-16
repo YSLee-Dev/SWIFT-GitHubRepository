@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct MainModel : Decodable{
+struct MainCellData : Decodable{
     let id : Int
     let name : String
     let description : String

@@ -7,31 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34853ED32924DEAD007287D6 /* MainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34853ED22924DEAD007287D6 /* MainTableView.swift */; };
+		34853ED52924DEB7007287D6 /* MainTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34853ED42924DEB7007287D6 /* MainTableViewModel.swift */; };
+		34DFC1C62924EED200826C9B /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFC1C32924EED200826C9B /* MainModel.swift */; };
+		34DFC1C72924EED200826C9B /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFC1C42924EED200826C9B /* MainVC.swift */; };
+		34DFC1C82924EED200826C9B /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFC1C52924EED200826C9B /* MainViewModel.swift */; };
 		D4EC9AE628E1AAE0003A8635 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EC9AE528E1AAE0003A8635 /* AppDelegate.swift */; };
 		D4EC9AE828E1AAE0003A8635 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EC9AE728E1AAE0003A8635 /* SceneDelegate.swift */; };
-		D4EC9AEA28E1AAE0003A8635 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EC9AE928E1AAE0003A8635 /* MainVC.swift */; };
 		D4EC9AEF28E1AAE3003A8635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4EC9AEE28E1AAE3003A8635 /* Assets.xcassets */; };
 		D4EC9AF228E1AAE3003A8635 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EC9AF028E1AAE3003A8635 /* LaunchScreen.storyboard */; };
 		D4FC194F28ED869800F619C3 /* MainTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FC194E28ED869800F619C3 /* MainTableCell.swift */; };
 		D4FC195228ED870500F619C3 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D4FC195128ED870500F619C3 /* SnapKit */; };
 		D4FC195528ED871100F619C3 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = D4FC195428ED871100F619C3 /* Then */; };
-		D4FC195728ED8AE200F619C3 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FC195628ED8AE200F619C3 /* MainModel.swift */; };
+		D4FC195728ED8AE200F619C3 /* MainCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FC195628ED8AE200F619C3 /* MainCellData.swift */; };
 		F6103BAF57CC2C65F0A23A04 /* Pods_Six_GitHubRepository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02021A889BE343E967A54033 /* Pods_Six_GitHubRepository.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		02021A889BE343E967A54033 /* Pods_Six_GitHubRepository.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Six_GitHubRepository.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E978A2F6CD06A320BC3C9C /* Pods-Six_GitHubRepository.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Six_GitHubRepository.release.xcconfig"; path = "Target Support Files/Pods-Six_GitHubRepository/Pods-Six_GitHubRepository.release.xcconfig"; sourceTree = "<group>"; };
+		34853ED22924DEAD007287D6 /* MainTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableView.swift; sourceTree = "<group>"; };
+		34853ED42924DEB7007287D6 /* MainTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewModel.swift; sourceTree = "<group>"; };
+		34DFC1C32924EED200826C9B /* MainModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainModel.swift; path = Six_GitHubRepository/MainVC/MainModel.swift; sourceTree = SOURCE_ROOT; };
+		34DFC1C42924EED200826C9B /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainVC.swift; path = Six_GitHubRepository/MainVC/MainVC.swift; sourceTree = SOURCE_ROOT; };
+		34DFC1C52924EED200826C9B /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewModel.swift; path = Six_GitHubRepository/MainVC/MainViewModel.swift; sourceTree = SOURCE_ROOT; };
 		C816C58CB8569E0AE0768946 /* Pods-Six_GitHubRepository.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Six_GitHubRepository.debug.xcconfig"; path = "Target Support Files/Pods-Six_GitHubRepository/Pods-Six_GitHubRepository.debug.xcconfig"; sourceTree = "<group>"; };
 		D4EC9AE228E1AAE0003A8635 /* Six_GitHubRepository.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Six_GitHubRepository.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EC9AE528E1AAE0003A8635 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4EC9AE728E1AAE0003A8635 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D4EC9AE928E1AAE0003A8635 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		D4EC9AEE28E1AAE3003A8635 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4EC9AF128E1AAE3003A8635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4EC9AF328E1AAE3003A8635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4FC194E28ED869800F619C3 /* MainTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableCell.swift; sourceTree = "<group>"; };
-		D4FC195628ED8AE200F619C3 /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		D4FC195628ED8AE200F619C3 /* MainCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCellData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,44 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		34853ED62924DEBA007287D6 /* MainTableView */ = {
+			isa = PBXGroup;
+			children = (
+				34853ED22924DEAD007287D6 /* MainTableView.swift */,
+				34853ED42924DEB7007287D6 /* MainTableViewModel.swift */,
+				34853ED92924EAA1007287D6 /* Sub */,
+			);
+			path = MainTableView;
+			sourceTree = "<group>";
+		};
+		34853ED92924EAA1007287D6 /* Sub */ = {
+			isa = PBXGroup;
+			children = (
+				D4FC194E28ED869800F619C3 /* MainTableCell.swift */,
+			);
+			path = Sub;
+			sourceTree = "<group>";
+		};
+		34853EDC2924EE73007287D6 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				34DFC1C42924EED200826C9B /* MainVC.swift */,
+				34DFC1C52924EED200826C9B /* MainViewModel.swift */,
+				34DFC1C32924EED200826C9B /* MainModel.swift */,
+				34DFC1C92924EEF200826C9B /* Sub */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		34DFC1C92924EEF200826C9B /* Sub */ = {
+			isa = PBXGroup;
+			children = (
+				D4FC195628ED8AE200F619C3 /* MainCellData.swift */,
+				34853ED62924DEBA007287D6 /* MainTableView */,
+			);
+			path = Sub;
+			sourceTree = "<group>";
+		};
 		D4EC9AD928E1AADF003A8635 = {
 			isa = PBXGroup;
 			children = (
@@ -80,12 +126,10 @@
 			children = (
 				D4EC9AE528E1AAE0003A8635 /* AppDelegate.swift */,
 				D4EC9AE728E1AAE0003A8635 /* SceneDelegate.swift */,
-				D4EC9AE928E1AAE0003A8635 /* MainVC.swift */,
-				D4FC195628ED8AE200F619C3 /* MainModel.swift */,
-				D4FC194E28ED869800F619C3 /* MainTableCell.swift */,
 				D4EC9AEE28E1AAE3003A8635 /* Assets.xcassets */,
 				D4EC9AF028E1AAE3003A8635 /* LaunchScreen.storyboard */,
 				D4EC9AF328E1AAE3003A8635 /* Info.plist */,
+				34853EDC2924EE73007287D6 /* MainVC */,
 			);
 			path = Six_GitHubRepository;
 			sourceTree = "<group>";
@@ -220,11 +264,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4EC9AEA28E1AAE0003A8635 /* MainVC.swift in Sources */,
+				34853ED32924DEAD007287D6 /* MainTableView.swift in Sources */,
 				D4EC9AE628E1AAE0003A8635 /* AppDelegate.swift in Sources */,
 				D4EC9AE828E1AAE0003A8635 /* SceneDelegate.swift in Sources */,
-				D4FC195728ED8AE200F619C3 /* MainModel.swift in Sources */,
+				34DFC1C72924EED200826C9B /* MainVC.swift in Sources */,
+				34853ED52924DEB7007287D6 /* MainTableViewModel.swift in Sources */,
+				D4FC195728ED8AE200F619C3 /* MainCellData.swift in Sources */,
 				D4FC194F28ED869800F619C3 /* MainTableCell.swift in Sources */,
+				34DFC1C62924EED200826C9B /* MainModel.swift in Sources */,
+				34DFC1C82924EED200826C9B /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
