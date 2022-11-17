@@ -12,6 +12,8 @@
 		34DFC1C62924EED200826C9B /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFC1C32924EED200826C9B /* MainModel.swift */; };
 		34DFC1C72924EED200826C9B /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFC1C42924EED200826C9B /* MainVC.swift */; };
 		34DFC1C82924EED200826C9B /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFC1C52924EED200826C9B /* MainViewModel.swift */; };
+		34DFC1CB2926333F00826C9B /* EditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFC1CA2926333F00826C9B /* EditVC.swift */; };
+		34DFC1D0292633DB00826C9B /* EditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFC1CF292633DB00826C9B /* EditViewModel.swift */; };
 		D4EC9AE628E1AAE0003A8635 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EC9AE528E1AAE0003A8635 /* AppDelegate.swift */; };
 		D4EC9AE828E1AAE0003A8635 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EC9AE728E1AAE0003A8635 /* SceneDelegate.swift */; };
 		D4EC9AEF28E1AAE3003A8635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4EC9AEE28E1AAE3003A8635 /* Assets.xcassets */; };
@@ -31,6 +33,8 @@
 		34DFC1C32924EED200826C9B /* MainModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainModel.swift; path = Six_GitHubRepository/MainVC/MainModel.swift; sourceTree = SOURCE_ROOT; };
 		34DFC1C42924EED200826C9B /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainVC.swift; path = Six_GitHubRepository/MainVC/MainVC.swift; sourceTree = SOURCE_ROOT; };
 		34DFC1C52924EED200826C9B /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewModel.swift; path = Six_GitHubRepository/MainVC/MainViewModel.swift; sourceTree = SOURCE_ROOT; };
+		34DFC1CA2926333F00826C9B /* EditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditVC.swift; sourceTree = "<group>"; };
+		34DFC1CF292633DB00826C9B /* EditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewModel.swift; sourceTree = "<group>"; };
 		C816C58CB8569E0AE0768946 /* Pods-Six_GitHubRepository.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Six_GitHubRepository.debug.xcconfig"; path = "Target Support Files/Pods-Six_GitHubRepository/Pods-Six_GitHubRepository.debug.xcconfig"; sourceTree = "<group>"; };
 		D4EC9AE228E1AAE0003A8635 /* Six_GitHubRepository.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Six_GitHubRepository.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EC9AE528E1AAE0003A8635 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,18 +93,28 @@
 				34DFC1C42924EED200826C9B /* MainVC.swift */,
 				34DFC1C52924EED200826C9B /* MainViewModel.swift */,
 				34DFC1C32924EED200826C9B /* MainModel.swift */,
-				34DFC1C92924EEF200826C9B /* Sub */,
+				34853ED62924DEBA007287D6 /* MainTableView */,
+				34DFC1CC2926335200826C9B /* EditView */,
+				34DFC1CE292633AE00826C9B /* Entity */,
 			);
 			path = MainVC;
 			sourceTree = "<group>";
 		};
-		34DFC1C92924EEF200826C9B /* Sub */ = {
+		34DFC1CC2926335200826C9B /* EditView */ = {
+			isa = PBXGroup;
+			children = (
+				34DFC1CA2926333F00826C9B /* EditVC.swift */,
+				34DFC1CF292633DB00826C9B /* EditViewModel.swift */,
+			);
+			path = EditView;
+			sourceTree = "<group>";
+		};
+		34DFC1CE292633AE00826C9B /* Entity */ = {
 			isa = PBXGroup;
 			children = (
 				D4FC195628ED8AE200F619C3 /* MainCellData.swift */,
-				34853ED62924DEBA007287D6 /* MainTableView */,
 			);
-			path = Sub;
+			path = Entity;
 			sourceTree = "<group>";
 		};
 		D4EC9AD928E1AADF003A8635 = {
@@ -264,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34DFC1CB2926333F00826C9B /* EditVC.swift in Sources */,
 				34853ED32924DEAD007287D6 /* MainTableView.swift in Sources */,
 				D4EC9AE628E1AAE0003A8635 /* AppDelegate.swift in Sources */,
 				D4EC9AE828E1AAE0003A8635 /* SceneDelegate.swift in Sources */,
@@ -271,6 +286,7 @@
 				34853ED52924DEB7007287D6 /* MainTableViewModel.swift in Sources */,
 				D4FC195728ED8AE200F619C3 /* MainCellData.swift in Sources */,
 				D4FC194F28ED869800F619C3 /* MainTableCell.swift in Sources */,
+				34DFC1D0292633DB00826C9B /* EditViewModel.swift in Sources */,
 				34DFC1C62924EED200826C9B /* MainModel.swift in Sources */,
 				34DFC1C82924EED200826C9B /* MainViewModel.swift in Sources */,
 			);

@@ -40,5 +40,31 @@ extension MainVC{
         self.mainTableView.bind(viewModel: viewModel.mainTableViewModel)
         
         self.navigationItem.setRightBarButton(self.rightBtn, animated: true)
+        self.navigationItem.rightBarButtonItem!.rx.tap
+            .bind(to: viewModel.editBtnClick)
+            .disposed(by: self.bag)
+        
+        viewModel.gitTitle
+            .map{
+                "\($0) Repositories"
+            }
+            .drive(self.navigationItem.rx.title)
+            .disposed(by: self.bag)
+        
+        viewModel.editViewModel
+            .drive(self.rx.presentEditVC)
+            .disposed(by: self.bag)
+        
+    }
+}
+
+extension Reactive where Base : MainVC{
+    var presentEditVC : Binder<EditViewModel>{
+        return Binder(base){ base, data in
+            let editVC = EditVC()
+            editVC.bind(viewModel: data)
+            editVC.modalPresentationStyle = .overFullScreen
+            base.present(editVC, animated: true)
+        }
     }
 }
