@@ -57,8 +57,5 @@ extension MainTableView{
             }
             .bind(to: viewModel.cellRefresh)
             .disposed(by: self.bag)
-        
-        viewModel.cellRefresh
-            .accept(Void())
     }
 }

@@ -13,7 +13,7 @@ import RxCocoa
 struct MainTableViewModel{
     // INPUT
     let loadCellData = PublishRelay<[MainCellData]?>()
-    let cellRefresh = PublishRelay<Void>()
+    let cellRefresh = BehaviorRelay<Void>(value: Void())
  
     // OUTPUT
     let cellData : Driver<[MainCellData]>
